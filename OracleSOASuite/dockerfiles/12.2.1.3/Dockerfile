@@ -47,4 +47,4 @@ RUN cd /u01 && \
 # Define default command to start bash.
 #
 WORKDIR $ORACLE_HOME
-CMD ["/u01/oracle/dockertools/createDomainAndStart.sh"]
+#CMD ["/u01/oracle/dockertools/createDomainAndStart.sh"]
